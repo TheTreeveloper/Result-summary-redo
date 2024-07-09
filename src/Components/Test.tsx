@@ -1,5 +1,3 @@
-import React from "react";
-
 const Test = () => {
   const scoreList = [
     { id: 1, score: 80 },
