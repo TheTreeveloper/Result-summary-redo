@@ -1,0 +1,52 @@
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    background: linear-gradient(0deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+}
+
+.resultContainer p {
+    color: hsl(241, 100%, 89%);
+}
+
+.score_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.score_header h1, .score_header p {
+    z-index: 1;
+}
+
+.score_header h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: white;
+}
+
+.score_header p {
+    font-size: 1.1rem;
+    color: hsl(241, 100%, 89%);
+}
+
+.circle {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    position: absolute;
+    z-index: 0;
+}
+
+.comment {
+    font-size: 0.8rem;
+    color: hsl(241, 100%, 89%);
+    margin: 0 2rem;
+}

@@ -1,0 +1,124 @@
+.summaryContainer {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+}
+
+.summaryHeading{
+
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.reaction {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    background-color: hsla(0, 100%, 67%, 0.096);
+    padding: 0 1rem;
+}
+
+.reaction p {
+    color: hsl(0, 100%, 67%);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.reaction img,
+.memory img,
+.visual img, 
+.verbal img {
+    margin-right: 2rem;
+}
+
+/* MEMORY */
+
+.memory{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    background-color: hsl(39, 100%, 56%, 0.096);
+    padding: 0 1rem;
+}
+
+.memory p {
+    color: hsl(39, 100%, 56%);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* VERBAL */
+.verbal{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    background-color: hsl(166, 100%, 37%, 0.096);
+    padding: 0 1rem;
+}
+
+.verbal p{
+    color: hsl(166, 100%, 37%);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* VISUAL */
+
+.visual{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    background-color: hsl(234, 85%, 45%, 0.096);
+    padding: 0 1rem;
+}
+
+.visual p {
+    color: hsl(234, 85%, 45%);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.score { 
+    font-size: 0.8rem;
+    color: hsl(224, 30%, 27%) !important;
+    margin-left: 8rem;
+}
+
+.total {
+    font-size: 0.8rem;
+    color: hsla(224, 30%, 27%, 0.567);
+}
+
+
+.verbal .score,
+.visual .score {
+    margin-left: 8.5rem;
+}
+
+button {
+    width: 20rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 1.5rem;
+}
