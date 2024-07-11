@@ -14,7 +14,7 @@ function SummarySection() {
       <div className={styles.data}>
         <div className={styles.reaction}>
           <img
-            src="icon-reaction.svg"
+            src="./images/icon-reaction.svg"
             alt="reaction icon"
           />
           <p>Reaction</p>
