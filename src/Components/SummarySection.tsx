@@ -1,7 +1,5 @@
 import styles from "./SummarySection.module.css";
 
-import React from "react";
-
 function SummarySection() {
   const scoreArray = [
     { id: 1, category: "Reaction", score: 80 },
