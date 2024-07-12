@@ -14,7 +14,7 @@ function SummarySection() {
       <div className={styles.data}>
         <div className={styles.reaction}>
           <img
-            src="/public/assets/images/icon-reaction.svg"
+            src="./assets/images/icon-reaction.svg"
             alt="reaction icon"
           />
           <p>Reaction</p>
@@ -24,7 +24,7 @@ function SummarySection() {
           </p>
         </div>
         <div className={styles.memory}>
-          <img src="/public/assets/images/icon-memory.svg" alt="memory icon" />
+          <img src="./assets/images/icon-memory.svg" alt="memory icon" />
           <p>Memory</p>
           <p className={styles.score}>
             <span>{scoreArray[1].score}</span>
@@ -33,7 +33,7 @@ function SummarySection() {
         </div>
         <div className={styles.verbal}>
           {" "}
-          <img src="/public/assets/images/icon-verbal.svg" alt="verbal icon" />
+          <img src="./assets/images/icon-verbal.svg" alt="verbal icon" />
           <p>Verbal</p>
           <p className={styles.score}>
             <span>{scoreArray[2].score}</span>
@@ -42,7 +42,7 @@ function SummarySection() {
         </div>
         <div className={styles.visual}>
           {" "}
-          <img src="/public/assets/images/icon-visual.svg" alt="visual icon" />
+          <img src="./assets/images/icon-visual.svg" alt="visual icon" />
           <p>Visual</p>
           <p className={styles.score}>
             <span>{scoreArray[3].score}</span>
