@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
-    border-radius: 0 0 1.5rem 1.5rem;
+    gap: 1.5rem;
+    border-radius: 0 0 2rem 2rem;
     background: linear-gradient(0deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
     color: hsl(0, 0%, 100%);
-    padding: 1rem;
+    padding: 1rem 3rem;
 }
 
 .resultContainer p {
     color: hsl(241, 100%, 89%);
+    margin-bottom: 1rem;
 }
 
 .score_header{
@@ -49,4 +50,35 @@
     font-size: 0.8rem;
     color: hsl(241, 100%, 89%);
     margin: 0 2rem;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    .resultContainer {
+        width: 50%;
+        height: 24rem;
+        border-radius: 1rem;
+        position: relative;
+        z-index: 2;
+        position: relative;
+        left: 0.5rem;
+        margin: 0; 
+        padding: 1rem;
+        
+      box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    }
+
+    .comment {
+        font-size: 0.8rem;
+        color: hsl(241, 100%, 89%);
+        text-align: center;
+    }
+
+    .circle {
+        width: 10rem;
+        height: 10rem;
+    }
 }

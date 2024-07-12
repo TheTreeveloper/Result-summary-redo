@@ -3,10 +3,16 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 1rem;
+width: 100%;
 }
 
 .summaryHeading{
-
+    font-size: 1rem;
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+    position: relative;
+    right: 7.5rem;
+    margin-top: 1rem;
 }
 
 .data {
@@ -20,7 +26,7 @@ gap: 1rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 20rem;
+    width: auto;
     height: 3rem;
     border-radius: 0.3rem;
     background-color: hsla(0, 100%, 67%, 0.096);
@@ -46,7 +52,7 @@ gap: 1rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 20rem;
+    width: auto;
     height: 3rem;
     border-radius: 0.3rem;
     background-color: hsl(39, 100%, 56%, 0.096);
@@ -64,7 +70,7 @@ gap: 1rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 20rem;
+    width: auto;
     height: 3rem;
     border-radius: 0.3rem;
     background-color: hsl(166, 100%, 37%, 0.096);
@@ -83,7 +89,7 @@ gap: 1rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 20rem;
+    width: auto;
     height: 3rem;
     border-radius: 0.3rem;
     background-color: hsl(234, 85%, 45%, 0.096);
@@ -114,11 +120,57 @@ gap: 1rem;
 }
 
 button {
-    width: 20rem;
+    width: auto;
     height: 3rem;
     font-size: 1rem;
     font-weight: 700;
     background-color: hsl(224, 30%, 27%);
     color: white;
     border-radius: 1.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
+    border: none;
+}
+
+@media screen and (min-width: 600px) {
+    .summaryContainer{
+        width: 50%;
+        height: 24rem;
+        background-color: white;
+        border-radius: 0 1rem 1rem 0;
+        padding: 1rem 3rem;
+        
+      box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.summaryHeading{
+    
+    right: 5.2rem;
+}
+
+button {
+        width: 15rem;
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+    width: 15rem;
+}
+
+.score {
+    margin-left: 3.5rem !important;
+}
+
+.verbal .score,
+.visual .score {
+    margin-left:4rem !important;
+} 
+
+
+
 }
